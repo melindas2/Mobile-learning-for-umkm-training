@@ -7,7 +7,7 @@ A mobile learning application developed as my Bachelor's Thesis at Swiss German 
 
 ---
 
-## 📱 Features
+## Features
 
 - User authentication
 - Course enrollment
@@ -19,7 +19,7 @@ A mobile learning application developed as my Bachelor's Thesis at Swiss German 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -32,7 +32,31 @@ A mobile learning application developed as my Bachelor's Thesis at Swiss German 
 
 ---
 
-## 📷 Screenshots
+## Architecture
+
+The mobile application follows the **MVVM (Model–View–ViewModel)** architecture to improve code maintainability, scalability, and separation of concerns.
+
+```
+lib/
+├── models/
+├── views/
+├── viewmodels/
+├── services/
+├── repositories/
+├── widgets/
+└── utils/
+```
+
+### Architecture Overview
+
+- **Model** – Represents application data and business objects.
+- **View** – Flutter UI screens and widgets.
+- **ViewModel** – Handles presentation logic and state management.
+- **Repository/Services** – Manage communication with REST APIs and Cloud Firestore.
+
+---
+
+## Screenshots
 
 <p align="center">
   <a href="screenshots/login.jpeg">
@@ -60,7 +84,7 @@ A mobile learning application developed as my Bachelor's Thesis at Swiss German 
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 Watch the application demo here:
 
@@ -74,7 +98,7 @@ The user manual is available in the `docs` folder.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 Flutter App
@@ -89,7 +113,7 @@ Cloud Firestore
 
 ---
 
-## 👩‍💻 My Role
+## My Role
 
 This application was independently developed as part of my Bachelor's Thesis.
 
@@ -105,7 +129,7 @@ Responsibilities include:
 
 ---
 
-## 📄 License
+## License
 
 Copyright © 2026 Melinda Santoso.
 
